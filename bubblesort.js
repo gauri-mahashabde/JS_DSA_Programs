@@ -1,3 +1,6 @@
+/*Bubble sort is a sorting algorithm that compares adjacent elements and swaps them if they do not follow the desired order. 
+This algorithm is stable and follows in-place sorting. 
+Easy-to-understand and implement, bubble sort in JavaScript takes O(n^2) time complexity to sort and is not the most optimal sorting algorithm possible.*/
 const marks = [65, 78, 35, 99, 87, 45, 39, 39, 56, 32, 2];
 const num = [3, 4, 5, 2, 1];
 //console.log(document.getElementById("bubble_sort").innerHTML)
