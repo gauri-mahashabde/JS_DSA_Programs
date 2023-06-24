@@ -21,3 +21,5 @@ function selectionSort(arr) {
     }
     return arr;
 }
+
+//cleaner code with comments
