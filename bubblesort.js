@@ -61,3 +61,5 @@ function bubbleSort(array){
     // Print the sorted array
     console.log(array);
 }
+
+//optimized solution
