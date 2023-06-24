@@ -45,3 +45,4 @@ function selectionSort(arr) {
     swap(arr, minIndex, i);
   }
 }
+
