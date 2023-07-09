@@ -10,4 +10,4 @@ function insertionSort(arr) {
       arr[j + 1] = currentValue
     }
     return arr
-  }
+  } 
