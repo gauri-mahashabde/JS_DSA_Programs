@@ -30,7 +30,31 @@ console.log("Target value not found in array");
  
 
 const res = binarySearch(array,target);
-
 const  result = document.getElementById("2").innerHTML = res;
-
 console.log(res );*/
+
+function binarySearch(arr, target) {
+  let start = 0;
+  let end = arr.length - 1;
+  while (start <= end) {
+    let middle = Math.floor((start + end) / 2);
+    if (arr[middle] < target) {
+      // Search the right half
+      start = middle + 1;
+    } else if (arr[middle] > target) {
+      // Search the left half
+      end = middle - 1;
+    } else if (arr[middle] === target) {
+      // Found target
+      return middle;
+    }
+  }
+
+  // Target not found
+  return -1;
+}
+const arr = [1, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59];
+target = 41;
+
+const result = binarySearch(arr, target);
+console.log(result);
